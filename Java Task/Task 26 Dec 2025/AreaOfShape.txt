@@ -1,0 +1,20 @@
+class AreaOfShape {
+
+    void area(double r) {
+        double result = Math.PI * r * r;
+        System.out.println("Area of Circle = " + result);
+    }
+
+    void area(int a) {
+        int result = a * a;
+        System.out.println("Area of Square = " + result);
+    }
+
+    public static void main(String[] args) {
+
+        AreaOfShape obj = new AreaOfShape();
+
+        obj.area(7.0);   
+        obj.area(5);     
+    }
+}

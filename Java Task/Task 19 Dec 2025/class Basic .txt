@@ -1,0 +1,17 @@
+class Basic
+{
+    int num = 2;
+    char letter = 'A';
+    boolean status = false;
+    String name = "Hello";
+
+    public static void main(String args[])
+    {
+        Basic obj = new Basic();
+
+        System.out.println(obj.num);
+        System.out.println(obj.letter);
+        System.out.println(obj.status);
+        System.out.println(obj.name);
+    }
+}

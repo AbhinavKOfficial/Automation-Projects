@@ -1,0 +1,16 @@
+class Student
+{
+    int roll = 21;
+    float percentage = 76.4f;
+    char section = 'C';
+    boolean result = true;
+    String name = "Abhinav";
+
+    public static void main(String args[])
+    {
+        Student st = new Student();
+
+        System.out.println("Roll No = " + st.roll);
+        System.out.println("Percentage = " + st.percentage);
+        System.out.println(st.section);
+Read more

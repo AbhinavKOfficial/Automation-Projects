@@ -1,0 +1,31 @@
+class VowelConsonant {
+    public static void main(String[] args) {
+
+        String s = "cat";
+
+        int v = 0;
+        int c = 0;
+
+        char a = s.charAt(0);
+        char b = s.charAt(1);
+        char d = s.charAt(2);
+
+        if (a == 'a' || a == 'e' || a == 'i' || a == 'o' || a == 'u')
+            v++;
+        else
+            c++;
+
+        if (b == 'a' || b == 'e' || b == 'i' || b == 'o' || b == 'u')
+            v++;
+        else
+            c++;
+
+        if (d == 'a' || d == 'e' || d == 'i' || d == 'o' || d == 'u')
+            v++;
+        else
+            c++;
+
+        System.out.println("Vowels = " + v);
+        System.out.println("Consonants = " + c);
+    }
+}
